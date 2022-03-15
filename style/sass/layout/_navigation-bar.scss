@@ -1,0 +1,38 @@
+header{
+    nav{
+        width: 72%;
+        display: flex;
+        justify-content: space-between;
+        font-size: 18px;
+        color:$navbar-text-color;
+        font-family: Iran-Sans-Light;
+
+
+        ul{
+            width: 580px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            li.active{
+                font-family: Iran-Sans-Medium;
+                position: relative;
+
+                &::after{
+                    content: "";
+                    width: 12px;
+                    height: 12px;
+                    background: linear-gradient(133.53deg, #D90429 11.31%, #8D99AE 100%);
+                    border: 0.5px solid #FFFFFF;
+                    box-shadow: 0px 0px 12px 5px #D90429;
+                    border-radius: 50%;
+                    position: absolute;
+                    top: 30px;
+                    right: 50%;
+                    transform: translate(50%);
+                }
+
+            }
+        }
+    }
+}

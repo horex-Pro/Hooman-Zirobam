@@ -1,0 +1,23 @@
+{
+  "name": "hooman-zirobam",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "sass ./style/sass/app.scss ./style/css/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/horex-Pro/Hooman-Zirobam.git"
+  },
+  "author": "horex.pro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/horex-Pro/Hooman-Zirobam/issues"
+  },
+  "homepage": "https://github.com/horex-Pro/Hooman-Zirobam#readme",
+  "dependencies": {
+    "sass": "^1.49.9"
+  }
+}
